@@ -53,12 +53,10 @@ header{
     font-weight:  100;
     transition: all .50s ease;
     color: var(--main-bg-color);
-    backdrop-filter: brightness(100%);
-    border-radius: 100%; 
+    border-bottom: 3px solid transparent;
 }
 .list a:hover{
-     background-color: #141415;
-   color: #36819f;
+     border-bottom: 3px solid var(--main-bg-color);
 }
 .home{
     width: 100%;
