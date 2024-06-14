@@ -570,11 +570,11 @@ h1,h2,h3{
 }
 .card{
     width: 150%;
-    height: 60vh;
+    height: 50vh;
 }
 .front-card img{
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-radius: 10%;
   }
   .abt-label{
