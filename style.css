@@ -596,35 +596,10 @@ h1,h2,h3{
 }
 @media only screen and (min-width: 700px) and (max-width: 900px) {
     
-    header .bx{
-        display: block;
-        font-size: 25px;
-        margin-right: 1rem;
-    }
-
-.list{
-    background-color: #201f20;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 150px;
-    height: 150vh;
-    padding-top: 50px;
-    text-align: left;
-    z-index: 2;
-    transition: right 0.5s ease ;
-}
-.list a{
-    display: block;
-    margin: 25px;
-}
-.list .bx{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-    color: #18a0d5;
-}
+   
+    .home{
+    margin-top: 1rem;
+   }
     .about-content {
       display: flex;
       gap: 2rem;
