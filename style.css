@@ -596,7 +596,7 @@ h1,h2,h3{
 }
 
 
-@media only screen and (min-width: 700px) and (max-width: 800px) {
+@media only screen and (min-width: 601px) and (max-width: 700px) {
      header .bx{
         display: block;
         font-size: 25px;
@@ -691,7 +691,7 @@ header.sticky{
   }
   
 
-@media only screen and (max-width:850) {
+@media only screen and (min-width:701) and (max-width:800) {
     header .bx{
        display: block;
        font-size: 25px;
