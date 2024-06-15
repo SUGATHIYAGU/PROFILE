@@ -691,7 +691,7 @@ header.sticky{
   }
   
 
-@media only screen and (max-width:950) {
+@media only screen and (max-width:850) {
     header .bx{
        display: block;
        font-size: 25px;
