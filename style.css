@@ -594,4 +594,20 @@ h1,h2,h3{
     flex-direction: column;
 }
 }
-
+@media only screen and(min-width:601) and (max-width:900){
+    .about-content{
+        display:flex;
+        gap: 2rem;
+    }
+    .abt-label{
+        font-size: 2px;
+        font-weight: 900;
+    }
+    .card{
+        width: 500%;
+        height: 100vh;
+    }
+    .contact-row,.list{
+        flex-direction: column;
+    }
+}
