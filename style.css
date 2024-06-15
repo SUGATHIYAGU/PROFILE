@@ -610,7 +610,7 @@ header.sticky{
     background-color: #201f20;
     position: fixed;
     top: 0;
-    right: -200px;
+    right: -250px;
     width: 150px;
     height: 150vh;
     padding-top: 50px;
@@ -638,7 +638,7 @@ header.sticky{
     position: relative;
     width: 30%;
     height: 60vh;
-    right: -6rem;
+    right: 1rem;
     animation: FloatPic 10s ease-in-out infinite;
 
     
@@ -656,19 +656,19 @@ header.sticky{
   
     .about-card {
       width: 100%; 
-      height: 100vh; 
+      height: 50vh; 
       font-size: 1.5rem; 
       perspective: none; 
     }
   
     .card {
       width: 100%; 
-      height: 70vh; 
+      height: 50vh; 
     }
   
     .front-card img {
       width: 100%; 
-      height: 65vh; 
+      height: 45vh; 
       border-radius: 10px; 
     }
   
@@ -689,98 +689,94 @@ header.sticky{
     flex-direction: column;
 }
   }
- 
-@media only screen and (max-width:820) and (max-width:950){
+  
+
+@media only screen and (max-width:950) {
     header .bx{
-        display: block;
-        font-size: 25px;
-        margin-right: 1rem;
-    }
+       display: block;
+       font-size: 25px;
+       margin-right: 1rem;
+   }
 header.sticky{
-    background-color:var(--bg-color);
-}
-    
-.list{
-    background-color: #201f20;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 150px;
-    height: 150vh;
-    padding-top: 50px;
-    text-align: left;
-    z-index: 2;
-    transition: right 0.5s ease ;
-}
-.list a{
-    display: block;
-    margin: 25px;
-}
-.list .bx{
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
-    color: #18a0d5;
+   background-color:var(--bg-color);
 }
    
-    .home{
-    margin-top: 4rem;
-   }
-    .profile-img{
-    display: flex;
-    position: relative;
-    width: 30%;
-    height: 60vh;
-    right: -7rem;
-    animation: FloatPic 10s ease-in-out infinite;
+.list{
+   background-color: #201f20;
+   position: fixed;
+   top: 0;
+   right: -300px;
+   width: 150px;
+}
+.list a{
+   display: block;
+   margin: 25px;
+}
+.list .bx{
+   position: absolute;
+   top: 25px;
+   left: 25px;
+   cursor: pointer;
+   color: #18a0d5;
+}
+  
+   .home{
+   margin-top: 5rem;
+  }
+   .profile-img{
+   display: flex;
+   position: relative;
+   width: 30%;
+   height: 60vh;
+   right: 2rem;
+   animation: FloatPic 10s ease-in-out infinite;
 
-    
+   
 }
 .profile-img img{
-    opacity: 0.7;
+   opacity: 0.7;
 }
-  .education,.about{
-    margin-top: 2rem;
+ .education,.about{
+   margin-top: 2rem;
+  }
+   .about-content {
+     display: flex;
+     gap: 2rem;
    }
-    .about-content {
-      display: flex;
-      gap: 2rem;
-    }
-  
-    .about-card {
-      width: 100%; 
-      height: 100vh; 
-      font-size: 1.5rem; 
-      perspective: none; 
-    }
-  
-    .card {
-      width: 100%; 
-      height: 70vh; 
-    }
-  
-    .front-card img {
-      width: 100%; 
-      height: 65vh; 
-      border-radius: 10px; 
-    }
-  
-    .abt-label {
-      font-size: 10px; 
-      font-weight: 600; 
-      margin-right: 10px; 
-    }
-  
-    .back-card-data ul li {
-      font-size: 12px; 
-      font-weight: 400; 
-    }
-      .contact-ct{
-    margin-top: 1rem;
-  }
-    .contact-row,.list{
-    flex-direction: column;
+ 
+   .about-card {
+     width: 100%; 
+     height: 50vh; 
+     font-size: 1.5rem; 
+     perspective: none; 
+   }
+ 
+   .card {
+     width: 100%; 
+     height: 50vh; 
+   }
+ 
+   .front-card img {
+     width: 100%; 
+     height: 45vh; 
+     border-radius: 10px; 
+   }
+ 
+   .abt-label {
+     font-size: 10px; 
+     font-weight: 600; 
+     margin-right: 10px; 
+   }
+ 
+   .back-card-data ul li {
+     font-size: 12px; 
+     font-weight: 400; 
+   }
+     .contact-ct{
+   margin-top: 1rem;
+ }
+   .contact-row,.list{
+   flex-direction: column;
 }
-  }
-
+ }
+ 
