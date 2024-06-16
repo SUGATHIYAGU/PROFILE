@@ -596,7 +596,7 @@ h1,h2,h3{
 
 
 
-@media only screen and (min-width: 765px) and (max-width: 1200px) and (orientation: landscape) {
+@media only screen and (min-width: 650px) and (max-width: 1200px) and (orientation: landscape) {
     header .bx{
         display: block;
         font-size: 25px;
