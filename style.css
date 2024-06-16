@@ -559,11 +559,11 @@ header .bx{
     }
     .card {
         width: 125%;
-        height: 60vh;
+        height: 65vh;
     }
     .front-card img {
         width: 100%;
-        height: 55vh;
+        height: 60vh;
         border-radius: 10px;
     }
     .abt-label {
@@ -659,7 +659,7 @@ h1,h2,h3{
 }
 .about-card{
     width:100%
-    height: 55vh;
+    height: 60vh;
     font-size: 1.5rem;
     perspective: none;
 
