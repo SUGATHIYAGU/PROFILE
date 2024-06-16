@@ -496,7 +496,7 @@ button:hover{
 header .bx{
     display: none;
 }
-@media only screen and (max-width: 600px) and (orientation:landscape){
+@media only screen and (max-width: 600px){
 
     header .bx{
         display: block;
