@@ -496,7 +496,7 @@ button:hover{
 header .bx{
     display: none;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) and (orientation:landscape){
 
     header .bx{
         display: block;
@@ -594,12 +594,7 @@ h1,h2,h3{
 }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 700px) {
-   
-    .contact-row{
-        flex-direction: column;
-    }
-}
+
 
 @media only screen and (min-width: 765px) and (max-width: 1200px) and (orientation: landscape) {
     header .bx{
